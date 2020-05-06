@@ -20,7 +20,7 @@ nav {
 	color: #fff;
 	padding: 20px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
 
@@ -234,16 +234,16 @@ footer i {
 }
 /* end of navbar border animation */
 
-/* media queries */
+/* Media Queries */
 
 @media (max-width: 350px) {
 	#welcome-section p {
 		font-size: 25px;
 	}
 
-	#navbar a {
+	/* #navbar a {
 		display: none;
-	}
+	} */
 }
 
 /* =================
